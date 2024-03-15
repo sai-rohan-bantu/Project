@@ -1,0 +1,111 @@
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: green !important;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content:center;
+}
+button {
+    background-color: ;
+    border-radius:4px;
+}
+
+
+.div > h1 {
+    margin: 0;
+    color:yellow;
+    text-align: center;
+}
+ul
+{
+ list-style-type:none;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Food categories section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.category {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #3498db; /* Blue */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.category h2 {
+    margin-top: 0;
+}
+
+/* Food items section */
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.item {
+    padding: 20px;
+    background-color: #f39c12; /* Orange */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.item:hover {
+    background-color: #e74c3c; /* Red */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item h3 {
+    margin-top: 0;
+}
+
+.item p {
+    margin-bottom: 10px;
+}
+
+/* Cart section */
+.cart {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #9b59b6; /* Purple */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: #8e44ad; /* Darker Purple */
+}
+
+.cart span {
+    margin-right: 5px;
+}
